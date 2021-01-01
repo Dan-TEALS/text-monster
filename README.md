@@ -48,6 +48,7 @@ The Project Description lists the following seven commands as allowable input fr
 - grab
 - fight
 - help
+
 The Project Description does not specify what the __help__ command should do. I've decided it should print out a list of possible commands and the player inventory (since there's no __inventory__ command).
 
 I also noticed that the allowable commands all start with a unique letter. To make life easier for the player, I plan to convert the player input string to lowercase and only check the first letter of the input. To enable printing the valid commands and validating player input, I plan to use two lists: one with the full commands for printing and one with only the first letters for player input validation. There are also two variables to get the player input and for the cleaned-up input.
