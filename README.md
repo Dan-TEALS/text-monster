@@ -59,4 +59,4 @@ player_input = input(input_prompt)
 simplified_input = player_input.lower()[0]
 ```
 
-*There are more implementation details that need to be considered to create the game, but these are all of the variables that need to be planned for, according to the lesson plan and rubric.* 
+*There are more implementation details that need to be considered to create the game, but these are all of the variables that need to be planned for, according to the lesson plan and rubric. Also, when implementing the game, I realized I didn't need the valid commands list.* 

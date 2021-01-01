@@ -33,7 +33,6 @@ player_floor = floor_1
 player_previous_room = 0
 
 # On each move, the user has seven possible commands: left, right, up, down, grab, fight, and help.
-valid_commands = ['[l]eft', '[r]ight', '[u]p', '[d]own', '[g]rab', '[f]ight', '[h]elp']
 valid_inputs = ['l', 'r', 'u', 'd', 'g', 'f', 'h']
 
 # Use a list to keep track of the player's items.
